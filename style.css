@@ -1,0 +1,73 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+  }
+  
+  h1 {
+    font-weight: 700;
+    color: #343a40;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    color: #495057;
+    font-weight: 600;
+  }
+  
+  .form-control,
+  .btn {
+    border-radius: 10px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  #expenseSummary {
+    margin-top: 20px;
+  }
+  
+  #expenseTable th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  #expenseTable tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  #displayBalance {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #28a745;
+  }
+  
+  #displayIncome {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #007bff;
+  }
+  
+  #totalExpenses {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #dc3545;
+  }
+  
+  .delete-btn {
+    color: #dc3545;
+    cursor: pointer;
+  }
+  
